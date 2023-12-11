@@ -1,5 +1,6 @@
-./script.sh объявляет команды START, STATUS, STOP
-./monitoring_script.sh достает информацию об утилизации CPU с помощью команды top и помещает в файл monitoring_results.csv каждые 10 секунд
+script.sh объявляет команды START, STATUS, STOP
+
+monitoring_script.sh достает информацию об утилизации CPU с помощью команды top и помещает в файл monitoring_results.csv каждые 10 секунд
 
 Для начала нужно дать права на исполнение
 
