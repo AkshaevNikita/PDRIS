@@ -5,7 +5,7 @@ monitoring_script.sh достает информацию об утилизаци
 Для начала нужно дать права на исполнение
 
 ```sh
-cmod +x ./script.sh
+chmod +x ./script.sh
 chmod +x ./monitoring_script.sh
 ```
 Использование скрипта
