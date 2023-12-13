@@ -1,0 +1,13 @@
+- name: Install Docker and Docker Compose
+  pip:
+    name: docker
+    state: present
+  pip:
+    name: docker-compose
+- name: Pull Docker image from DockerHub
+  command: "docker pull playsocool/hw1_web"
+- name: Deploy application using Docker Compose
+  docker_compose:
+    project_src: ./hw2/hw2
+    state: present
+
